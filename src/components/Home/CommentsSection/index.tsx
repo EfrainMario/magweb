@@ -28,8 +28,8 @@ export default function CommentsSection() {
                 <Grid container spacing={4} justifyContent='center'>
                     <Grid item xs={12} md={2} lg={3}>
                         <Box position='relative' width={'fit-content'}>
-                            <MyAvatar src={CEO_URL} alt={"CEO profile photo"}/>
-                            <Box sx={{ position: 'absolute', bottom:0, right:0, mr: -3, mb: -2, bgcolor: 'secondary.main', borderRadius: 2, color: '#fff', px: 2, py: 1, display: 'flex', alignItems: 'center' }}>
+                            <MyAvatar src={CEO_URL} alt={"CEO profile photo"} />
+                            <Box sx={{ position: 'absolute', bottom: 0, right: 0, mr: -3, mb: -2, bgcolor: 'secondary.main', borderRadius: 2, color: '#fff', px: 2, py: 1, display: 'flex', alignItems: 'center' }}>
                                 <ChatBubbleOutlineRoundedIcon />
                             </Box>
                         </Box>
@@ -49,7 +49,7 @@ export default function CommentsSection() {
 
                             <Link color='inherit' underline='hover' href={"/"} sx={{ display: 'flex', alignItems: 'center' }}>
                                 Read More
-                                <ArrowRightAltRoundedIcon sx={{ ml: 2, color:'primary.main' }} />
+                                <ArrowRightAltRoundedIcon sx={{ ml: 2, color: 'primary.main' }} />
                             </Link>
                         </Box>
                     </Grid>
